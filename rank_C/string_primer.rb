@@ -17,9 +17,9 @@
 
 # 表記が正しくない可能性のある数値を表す文字列 S が与えられるので、その数値を正しい表記にしてください。
 # S を数値として扱うと上手く処理が行えないので気をつけてください。
-# s = gets.chomp
-# https://paiza.jp/works/mondai/string_primer/advance_step7
 
+# https://paiza.jp/works/mondai/string_primer/advance_step7
+s = gets.chomp
 if !s.include?(".")
     i = 0
     while i < s.length
