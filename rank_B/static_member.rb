@@ -13,6 +13,7 @@
 
 class Customer
     attr_reader :age, :price
+    
     def initialize(age)
         @age = age
         @price = []
@@ -58,7 +59,7 @@ class Customer
         end
     end
     
-end 
+end
 
 n, k = gets.split(" ").map(&:to_i)
 customers = []

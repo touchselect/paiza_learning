@@ -7,6 +7,9 @@
 
 # https://paiza.jp/works/mondai/c_rank_level_up_problems/c_rank_dictionary_boss
 
+# メモ
+# 連想配列の宣言 値の代入
+
 a,b,c = gets.split(" ").map(&:to_i)
 a_b = {}
 b_c = {}

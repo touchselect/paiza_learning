@@ -6,6 +6,10 @@
 # あなたは、説明会に行く際、時間を無駄にしたくないため、日程が連続している説明会にしか参加しません。
 # 企業説明会の日程の情報が与えられるので、一番多く参加できる日程を出力するプログラムを作成してください。
 
+# メモ
+# event_con.map { |key, value| [key, value] } 連想配列を2次元配列に変換
+# sort_event.sort_by {|x| [x[1], -x[0]]}.reverse 2次元配列のソート
+
 event_count = gets.to_i
 event_plan = readlines(chomp: true).map(&:to_i)
 event_con = {}

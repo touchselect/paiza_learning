@@ -37,7 +37,6 @@ https://paiza.jp/works/mondai/a_rank_level_up_problems/a_rank_camp_boss -->
                 array_push($que[0] , $i , $j , $n);
             }elseif($map[$i][$j] === "B"){
                 array_push($que[1] , $i , $j , 0);
-                
             }
         }
     }

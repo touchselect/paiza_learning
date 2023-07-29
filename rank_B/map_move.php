@@ -8,7 +8,9 @@
 ・ 移動前に向いている方角によって同じ移動の向きでも座標の変化が違うこと
 の 2 点に気をつけてください。
 例えば、上の図の状態から右に移動を行った場合、下の図のような状態になります。
+
 https://paiza.jp/works/mondai/a_rank_level_up_problems/a_rank_snake_move_boss -->
+
 <?php
     [$x , $y , $n] = explode(" " , trim(fgets(STDIN)));
     $directions = ["N", "E", "S", "W"];

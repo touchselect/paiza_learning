@@ -19,6 +19,7 @@
 # S を数値として扱うと上手く処理が行えないので気をつけてください。
 
 # https://paiza.jp/works/mondai/string_primer/advance_step7
+
 s = gets.chomp
 if !s.include?(".")
     i = 0

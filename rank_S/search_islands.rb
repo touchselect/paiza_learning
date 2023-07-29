@@ -18,13 +18,16 @@
 
 # 島の数を計算して出力するプログラムを作成して下さい。
 
+# メモ
+# アルゴリズム 深さ優先検索DFS
+
 w, h = gets.split(" ").map(&:to_i)
 map = readlines(chomp: true).map{|n| n.split(" ").map(&:to_i)}
 visit = Array.new(h){Array.new(w,false)}
 islands = 0
 
 def search(map, visit, h, w, i, j)
-    if i < 0 || i >= h || j < 0 || j >= w || visit[i][j] || map[i][j] == 0 
+    if i < 0 || i >= h || j < 0 || j >= w || visit[i][j] || map[i][j] == 0
         return
     end
     visit[i][j] = true
